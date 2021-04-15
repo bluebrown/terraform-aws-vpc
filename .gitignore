@@ -1,0 +1,7 @@
+.terraform
+*.pem
+*.ppk
+*.auto.*
+*.lock.*
+*.tfstate
+*.backup
