@@ -6,7 +6,7 @@ A canonical VPC setup with private and public subnet, created with Terraform.
 
 ## Prerequisites
 
-You need and AWS account and either root user access key and secret key or IAM user access key and secret key. It is advised to create a dedicated IAM user with limited access
+You need an AWS account and either root user access key and secret key or IAM user access key and secret key. It is advised to create a dedicated IAM user with limited access.
 
 You also need to install Terraform locally.
 
