@@ -7,5 +7,5 @@ resource "aws_route_table_association" "pub" {
 // associate the private subnet with the private route table
 resource "aws_route_table_association" "priv" {
   subnet_id      = aws_subnet.priv.id
-  route_table_id = aws_route_table.priv.id
+  route_table_id = aws_default_route_table.priv.id
 }
